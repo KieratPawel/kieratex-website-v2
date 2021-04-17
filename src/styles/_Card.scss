@@ -13,7 +13,6 @@
     position: relative;
     width: 100%;
     overflow: hidden;
-    box-shadow: 0 0 10px 0 $background-color1;
     @include media(horizontal) {
       width: 70%;
       margin: 0 auto;
@@ -36,7 +35,6 @@
     padding: 0 8px 30px;
     color: $font-color1;
     background-color: $background-color1;
-    box-shadow: 0 0 10px 0 $background-color1;
   }
   &__title {
     padding: 10px 0;
