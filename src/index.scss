@@ -1,3 +1,28 @@
+$background-color1: rgba(221, 221, 221, 0.9);
+$background-color2: rgba(51, 51, 51, 0.9);
+$font-color1: #333;
+$font-color2: #ddd;
+
+$sizes: (
+  horizontal: (
+    orientation: landscape,
+  ),
+  desktop: (
+    min-width: 1024px,
+  ),
+);
+
+@mixin media($size) {
+  $size: map-get($sizes, $size);
+  @if ($size) {
+    @media #{$size} {
+      @content;
+    }
+  } @else {
+    @error 'Missing size';
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +33,11 @@ html {
   font-family: "Roboto", sans-serif;
 }
 body {
-  background-color: #aaa;
+  background-color: $background-color1;
 }
 
 @import "./styles/App";
 @import "./styles/Background";
+@import "./styles/Head";
+@import "./styles/About";
+@import "./styles/Card";

@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 
+import Image from "./Image";
+
 const Background = () => {
-  const [offsetY, setOffsetY] = useState(0);
-  const handleScroll = () => setOffsetY(window.pageYOffset);
+  const [offset, setOffset] = useState(0);
+  const handleScroll = () => setOffset(window.pageYOffset);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -15,46 +17,46 @@ const Background = () => {
       <div
         className="Page__background Page__background--pattern"
         style={{
-          transform: `translateY(-${offsetY * 0.5}px)`,
+          transform: `translateY(-${offset * 0.5}px)`,
           backgroundImage: "url(/images/background-pattern.jpg)",
         }}
       />
-      <img
+      <Image
         className="Page__background Page__background--image"
         src="/images/binary-code.png"
         alt="kod binarny"
         style={{
-          transform: `translateY(${offsetY * -0.1}px)`,
-          filter: `hue-rotate(${offsetY * 0.1}deg)`,
+          transform: `translateY(${offset * -0.1}px)`,
+          filter: `hue-rotate(${offset * 0.1}deg)`,
         }}
       />
-      <img
+      <Image
         className="Page__background Page__background--image"
-        src="/images/brackets.png"
-        alt="nawiasy ostre"
+        src="/images/binary-code.png"
+        alt="kod binarny"
         style={{
-          transform: `translateY(${offsetY * 0.5}px)`,
-          filter: `hue-rotate(${offsetY * 0.02}deg)`,
+          transform: `translateY(${offset * -0.7}px)`,
+          filter: `invert(${offset * 0.1}%)`,
         }}
       />
-      <img
+      <Image
         className="Page__background Page__background--image"
         src="/images/globe.png"
         alt="glob"
         style={{
-          transform: `translateY(${offsetY * -0.5}px) scale(${
-            offsetY * 0.001 > 3 ? 3 : offsetY * 0.001
+          transform: `translateY(${offset * -0.5}px) scale(${
+            offset * 0.001 + 1 > 3 ? 3 : offset * 0.001 + 1
           })`,
-          filter: `invert(${offsetY * 0.05}%)`,
+          filter: `invert(${offset * 0.05}%)`,
         }}
       />
-      <img
+      <Image
         className="Page__background Page__background--image"
         src="/images/oreo.png"
         alt="ciastko"
         style={{
-          transform: `translateY(${offsetY * 0.3}px) translateX(${
-            offsetY * 0.3
+          transform: `translateY(${offset * 0.3}px) translateX(${
+            offset * 0.3
           }px)`,
         }}
       />
