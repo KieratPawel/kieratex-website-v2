@@ -9,7 +9,7 @@ const LinkCard = ({ src, title, text, id, link }) => {
 
   return (
     <div className="card card--link" id={id}>
-      <Fade in={checked} timeout={1000 + Math.random() * 2000}>
+      <Fade in={checked} timeout={1000 + Math.random() * 1000}>
         <div className="card__container">
           <a
             className="card__link"

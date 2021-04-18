@@ -55,8 +55,8 @@ const Background = () => {
         src="/images/oreo.png"
         alt="ciastko"
         style={{
-          transform: `translateY(${offset * 0.3}px) translateX(${
-            offset * 0.3
+          transform: `translateY(${offset * 0.6}px) translateX(${
+            offset * 0.6
           }px)`,
         }}
       />
