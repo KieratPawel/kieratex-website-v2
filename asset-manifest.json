@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/kieratex-website-v2/static/css/main.07303d61.chunk.css",
+    "main.js": "/kieratex-website-v2/static/js/main.00b1640d.chunk.js",
+    "main.js.map": "/kieratex-website-v2/static/js/main.00b1640d.chunk.js.map",
+    "runtime-main.js": "/kieratex-website-v2/static/js/runtime-main.3bbb41af.js",
+    "runtime-main.js.map": "/kieratex-website-v2/static/js/runtime-main.3bbb41af.js.map",
+    "static/js/2.8f51204f.chunk.js": "/kieratex-website-v2/static/js/2.8f51204f.chunk.js",
+    "static/js/2.8f51204f.chunk.js.map": "/kieratex-website-v2/static/js/2.8f51204f.chunk.js.map",
+    "index.html": "/kieratex-website-v2/index.html",
+    "static/css/main.07303d61.chunk.css.map": "/kieratex-website-v2/static/css/main.07303d61.chunk.css.map",
+    "static/js/2.8f51204f.chunk.js.LICENSE.txt": "/kieratex-website-v2/static/js/2.8f51204f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3bbb41af.js",
+    "static/js/2.8f51204f.chunk.js",
+    "static/css/main.07303d61.chunk.css",
+    "static/js/main.00b1640d.chunk.js"
+  ]
+}
