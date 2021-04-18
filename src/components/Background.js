@@ -2,6 +2,11 @@ import React, { useState, useEffect } from "react";
 
 import Image from "./Image";
 
+import BackgroundPattern from "../static/images/background-pattern.jpg";
+import BinaryCode from "../static/images/binary-code.png";
+import Globe from "../static/images/globe.png";
+import Oreo from "../static/images/oreo.png";
+
 const Background = () => {
   const [offset, setOffset] = useState(0);
   const handleScroll = () => setOffset(window.pageYOffset);
@@ -18,12 +23,12 @@ const Background = () => {
         className="Page__background Page__background--pattern"
         style={{
           transform: `translateY(-${offset * 0.5}px)`,
-          backgroundImage: "url(/images/background-pattern.jpg)",
+          backgroundImage: `url(${BackgroundPattern})`,
         }}
       />
       <Image
         className="Page__background Page__background--image"
-        src="/images/binary-code.png"
+        src={BinaryCode}
         alt="kod binarny"
         style={{
           transform: `translateY(${offset * -0.1}px)`,
@@ -32,7 +37,7 @@ const Background = () => {
       />
       <Image
         className="Page__background Page__background--image"
-        src="/images/binary-code.png"
+        src={BinaryCode}
         alt="kod binarny"
         style={{
           transform: `translateY(${offset * -0.7}px)`,
@@ -41,7 +46,7 @@ const Background = () => {
       />
       <Image
         className="Page__background Page__background--image"
-        src="/images/globe.png"
+        src={Globe}
         alt="glob"
         style={{
           transform: `translateY(${offset * -0.5}px) scale(${
@@ -52,7 +57,7 @@ const Background = () => {
       />
       <Image
         className="Page__background Page__background--image"
-        src="/images/oreo.png"
+        src={Oreo}
         alt="ciastko"
         style={{
           transform: `translateY(${offset * 0.6}px) translateX(${

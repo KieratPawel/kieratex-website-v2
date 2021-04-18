@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
+
 import { Fade } from "@material-ui/core";
+
+import Face from "../static/images/face.png";
 
 const Head = () => {
   const [checked, setChecked] = useState(false);
@@ -19,11 +22,7 @@ const Head = () => {
           <p className="header__slogan">Szybko</p>
           <p className="header__slogan">Skutecznie</p>
         </div>
-        <img
-          className="header__face"
-          src="images/face.png"
-          alt="Twarz twórcy Kieratex"
-        />
+        <img className="header__face" src={Face} alt="Twarz twórcy Kieratex" />
       </header>
     </Fade>
   );

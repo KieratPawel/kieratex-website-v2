@@ -2,6 +2,10 @@ import React from "react";
 
 import ContactForm from "./ContactForm";
 
+import Contact1 from "../static/images/contact1.png";
+import Contact2 from "../static/images/contact2.png";
+import Contact3 from "../static/images/contact3.png";
+
 const Contact = () => {
   return (
     <div className="section section--contact">
@@ -11,11 +15,7 @@ const Contact = () => {
         <div className="contact__socials">
           <p className="contact__line">
             <a className="contact__element" href="tel:692-798-454">
-              <img
-                src="images/contact2.png"
-                alt="telefon"
-                className="contact__image"
-              />
+              <img src={Contact2} alt="telefon" className="contact__image" />
               +48 692 798 454
             </a>
           </p>
@@ -24,11 +24,7 @@ const Contact = () => {
               className="contact__element"
               href="mailto:kierat.pawel@gmail.com"
             >
-              <img
-                src="images/contact1.png"
-                alt="koperta"
-                className="contact__image"
-              />
+              <img src={Contact1} alt="koperta" className="contact__image" />
               kierat.pawel@gmail.com
             </a>
           </p>
@@ -39,11 +35,7 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                src="images/contact3.png"
-                alt="facebook"
-                className="contact__image"
-              />
+              <img src={Contact3} alt="facebook" className="contact__image" />
               Paweł Kierat
             </a>
           </p>
