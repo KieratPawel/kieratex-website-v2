@@ -45,7 +45,7 @@ const Background = () => {
         alt="glob"
         style={{
           transform: `translateY(${offset * -0.5}px) scale(${
-            offset * 0.001 + 1 > 3 ? 3 : offset * 0.001 + 1
+            offset * 0.001 + 1 > 2 ? 2 : offset * 0.001 + 1
           })`,
           filter: `invert(${offset * 0.05}%)`,
         }}

@@ -9,7 +9,7 @@ const Card = ({ src, title, text, id }) => {
 
   return (
     <div className="card" id={id}>
-      <Collapse in={checked} timeout={2000}>
+      <Collapse in={checked} timeout={1000 + Math.random() * 2000}>
         <div className="card__image-container">
           <Image className="card__image" alt="technologia" src={src} />
         </div>

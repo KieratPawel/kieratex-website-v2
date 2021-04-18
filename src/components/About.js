@@ -2,9 +2,9 @@ import Card from "./Card";
 
 const About = () => {
   return (
-    <div className="about">
-      <h2 className="about__title">Tworzymy wyjątkowe strony internetowe</h2>
-      <div className="about__container">
+    <div className="section">
+      <h2 className="section__title">Tworzymy wyjątkowe strony internetowe</h2>
+      <div className="section__container">
         <Card
           src="images/services1.png"
           title="Wykonane w zgodzie z aktualnymi standardami"

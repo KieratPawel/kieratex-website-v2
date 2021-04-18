@@ -6,8 +6,10 @@ function usePosition(id) {
   useEffect(() => {
     function updatePosition() {
       const element = window.document.getElementById(id);
-      if (window.pageYOffset > element.offsetTop + 200) {
+      if (element.getBoundingClientRect().top < window.innerHeight * 0.7) {
         setRun(true);
+      } else {
+        setRun(false);
       }
     }
     window.addEventListener("scroll", updatePosition);
