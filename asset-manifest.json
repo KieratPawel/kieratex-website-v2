@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kieratex-website-v2/static/css/main.07303d61.chunk.css",
-    "main.js": "/kieratex-website-v2/static/js/main.6c40fe3b.chunk.js",
-    "main.js.map": "/kieratex-website-v2/static/js/main.6c40fe3b.chunk.js.map",
+    "main.js": "/kieratex-website-v2/static/js/main.d97b7085.chunk.js",
+    "main.js.map": "/kieratex-website-v2/static/js/main.d97b7085.chunk.js.map",
     "runtime-main.js": "/kieratex-website-v2/static/js/runtime-main.3bbb41af.js",
     "runtime-main.js.map": "/kieratex-website-v2/static/js/runtime-main.3bbb41af.js.map",
     "static/js/2.8f51204f.chunk.js": "/kieratex-website-v2/static/js/2.8f51204f.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.3bbb41af.js",
     "static/js/2.8f51204f.chunk.js",
     "static/css/main.07303d61.chunk.css",
-    "static/js/main.6c40fe3b.chunk.js"
+    "static/js/main.d97b7085.chunk.js"
   ]
 }
