@@ -25,23 +25,23 @@ const config = {
     card1: {
       title: "Wykonane w zgodzie z aktualnymi standardami",
       text:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem eaque nulla earum totam minima sint excepturi obcaecati, atque, assumenda dolorem quam illum natus.",
+        "Do tworzenia aplikacji wykorzystywane są najnowsze w branży technologie. W tym między innymi HTML5, CSS3, Vanilla JavaScript, a także SCSS, React, czy Git",
       id: "about1",
-      image: { src: Services1, alt: "technologia" },
+      image: { src: Services1, alt: "technologie" },
     },
     card2: {
       title: "Zoptymalizowane pod kątem wyszukiwarek internetowych",
       text:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem eaque nulla earum totam minima sint excepturi obcaecati, atque, assumenda dolorem quam illum natus.",
+        "Aplikacje są przygotowywane w taki sposób, aby wspierać pozycjonowanie stron w wyszukiwarkach, takich jak min. Google, czy Bing. W tym celu wykorzystywane są opisy oraz tagi.",
       id: "about2",
-      image: { src: Services2, alt: "technologia" },
+      image: { src: Services2, alt: "lupka Google" },
     },
     card3: {
       title: "W pełni responsywne, bez względu na typ urządzenia",
       text:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem eaque nulla earum totam minima sint excepturi obcaecati, atque, assumenda dolorem quam illum natus.",
+        "Grafiki oraz zawartość aplikacji są optymalizowane pod względem wymiarów, aby dobrze prezentować się na różnego typu urządzeniach - komputerach osobistych, tabletach, czy smartfonach.",
       id: "about1",
-      image: { src: Services3, alt: "technologia" },
+      image: { src: Services3, alt: "urządzenia elektroniczne" },
     },
   },
   projects: {
@@ -49,7 +49,7 @@ const config = {
     project1: {
       title: "Kieratex_v1",
       text:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem eaque nulla earum totam minima sint excepturi obcaecati, atque, assumenda dolorem quam illum natus.",
+        "Pierwszy projekt wykonany przez Kieratex. Prezentuje autora oraz jego ówczesne umiejętności. Aplikacja korzysta z takich techniki jak HTML5, CSS oraz biblioteki jQuery.",
       id: "project1",
       link: "https://kieratpawel.github.io/kieratex-website/",
       image: { src: Kieratex, alt: "strona Kieratex_v1" },
@@ -57,7 +57,7 @@ const config = {
     project2: {
       title: "dom seniora pod debem",
       text:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem eaque nulla earum totam minima sint excepturi obcaecati, atque, assumenda dolorem quam illum natus.",
+        "Pierwszy komercyjny projekt Kieratex, wykonany na zleceneie domu seniora 'Pod Dębem'. Strona promocyjna obiektu. Projekt wykorzystuje czysty JavaScript, SCSS.",
       id: "project2",
       link: "https://domseniorapoddebem.pl/",
       image: { src: DomSeniora, alt: "strona Domu Seniora" },
@@ -65,7 +65,7 @@ const config = {
     project3: {
       title: "lotto machine",
       text:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem eaque nulla earum totam minima sint excepturi obcaecati, atque, assumenda dolorem quam illum natus.",
+        "Lotto machine to aplikacja generująca liczby z zadanego przedziału. Projekt został wykonany przy użyciu React'a. Zastosowano w nim komponenty klasowe.",
       id: "project3",
       link: "https://kieratpawel.github.io/lotto-picker-react/",
       image: { src: LottoMachine, alt: "strona Lotto Machine" },
@@ -73,7 +73,7 @@ const config = {
     project4: {
       title: "github",
       text:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem eaque nulla earum totam minima sint excepturi obcaecati, atque, assumenda dolorem quam illum natus.",
+        "Repozytorium Kieratex zawierające kody źródłowe przygotowanych projektów. Dodatkowo znajdują się tam odnośniki, pod którymi można podejrzeć aplikacje w działaniu.",
       id: "project4",
       link: "https://github.com/KieratPawel",
       image: { src: Github, alt: "strona Github" },
