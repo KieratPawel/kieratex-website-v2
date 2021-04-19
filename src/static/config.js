@@ -49,7 +49,7 @@ const config = {
     project1: {
       title: "Kieratex_v1",
       text:
-        "Pierwszy projekt wykonany przez Kieratex. Prezentuje autora oraz jego ówczesne umiejętności. Aplikacja korzysta z takich techniki jak HTML5, CSS oraz biblioteki jQuery.",
+        "Pierwszy projekt wykonany przez Kieratex. Prezentuje autora oraz jego ówczesne umiejętności. Aplikacja korzysta z takich technik jak HTML5, CSS oraz z biblioteki jQuery.",
       id: "project1",
       link: "https://kieratpawel.github.io/kieratex-website/",
       image: { src: Kieratex, alt: "strona Kieratex_v1" },
@@ -57,7 +57,7 @@ const config = {
     project2: {
       title: "dom seniora pod debem",
       text:
-        "Pierwszy komercyjny projekt Kieratex, wykonany na zleceneie domu seniora 'Pod Dębem'. Strona promocyjna obiektu. Projekt wykorzystuje czysty JavaScript, SCSS.",
+        "Pierwszy komercyjny projekt Kieratex, wykonany na zlecenie domu seniora 'Pod Dębem'. Strona promocyjna obiektu. Projekt wykorzystuje czysty JavaScript, SCSS.",
       id: "project2",
       link: "https://domseniorapoddebem.pl/",
       image: { src: DomSeniora, alt: "strona Domu Seniora" },
