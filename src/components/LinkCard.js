@@ -4,7 +4,7 @@ import Image from "./Image";
 
 import usePosition from "../hooks/usePosition";
 
-const LinkCard = ({ src, title, text, id, link }) => {
+const LinkCard = ({ image, title, text, id, link }) => {
   const checked = usePosition(id);
 
   return (
@@ -18,7 +18,7 @@ const LinkCard = ({ src, title, text, id, link }) => {
             rel="noreferrer"
           >
             <div className="card__image-container">
-              <Image className="card__image" alt="technologia" src={src} />
+              <Image className="card__image" alt={image.alt} src={image.src} />
             </div>
           </a>
           <div className="card__info card__info--link">

@@ -1,31 +1,31 @@
 import Card from "./Card";
 
-import Services1 from "../static/images/services1.png";
-import Services2 from "../static/images/services2.png";
-import Services3 from "../static/images/services3.png";
+import config from "../static/config";
+
+const { about } = config;
 
 const About = () => {
   return (
     <div className="section">
-      <h2 className="section__title">Tworzymy wyjątkowe strony internetowe</h2>
+      <h2 className="section__title">{about.sectionTitle}</h2>
       <div className="section__container">
         <Card
-          src={Services1}
-          title="Wykonane w zgodzie z aktualnymi standardami"
-          text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem eaque nulla earum totam minima sint excepturi obcaecati, atque, assumenda dolorem quam illum natus."
-          id="about1"
+          image={about.card1.image}
+          title={about.card1.title}
+          text={about.card1.text}
+          id={about.card1.id}
         />
         <Card
-          src={Services2}
-          title="Zoptymalizowane pod kątem wyszukiwarek internetowych"
-          text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem eaque nulla earum totam minima sint excepturi obcaecati, atque, assumenda dolorem quam illum natus."
-          id="about2"
+          image={about.card2.image}
+          title={about.card2.title}
+          text={about.card2.text}
+          id={about.card2.id}
         />
         <Card
-          src={Services3}
-          title="W pełni responsywne, bez względu na typ urządzenia"
-          text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem eaque nulla earum totam minima sint excepturi obcaecati, atque, assumenda dolorem quam illum natus."
-          id="about3"
+          image={about.card3.image}
+          title={about.card3.title}
+          text={about.card3.text}
+          id={about.card3.id}
         />
       </div>
     </div>

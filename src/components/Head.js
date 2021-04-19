@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 
 import { Fade } from "@material-ui/core";
 
-import Face from "../static/images/face.png";
+import config from "../static/config";
+
+const { header } = config;
 
 const Head = () => {
   const [checked, setChecked] = useState(false);
@@ -15,14 +17,19 @@ const Head = () => {
       <header className="header">
         <div className="header__info">
           <h1 className="header__brand">
-            Kierate<span className="header__x">x</span>
+            {header.name1}
+            <span className="header__x">{header.name1X}</span>
           </h1>
-          <h1 className="header__brand">web development</h1>
-          <p className="header__slogan">Tanio</p>
-          <p className="header__slogan">Szybko</p>
-          <p className="header__slogan">Skutecznie</p>
+          <h1 className="header__brand">{header.name2}</h1>
+          <p className="header__slogan">{header.slogan1}</p>
+          <p className="header__slogan">{header.slogan2}</p>
+          <p className="header__slogan">{header.slogan3}</p>
         </div>
-        <img className="header__face" src={Face} alt="Twarz twórcy Kieratex" />
+        <img
+          className="header__face"
+          src={header.image.src}
+          alt={header.image.alt}
+        />
       </header>
     </Fade>
   );
