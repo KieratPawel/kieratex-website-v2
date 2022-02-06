@@ -1,17 +1,10 @@
 .navbar {
   position: fixed;
   display: flex;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  @include media(desktop) {
-    top: 50%;
-    left: unset;
-    bottom: unset;
-    right: 30px;
-    transform: translateY(-50%);
-    flex-direction: column;
-  }
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  flex-direction: column;
 
   a.active {
     span {
@@ -25,14 +18,12 @@
     width: 15px;
     height: 15px;
     border-radius: 7.5px;
-    margin: 0 5px;
+    margin: 5px 0;
     cursor: pointer;
     transition: 0.3s;
     box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 2px 0px,
       rgba(255, 255, 255, 0.4) 0px 1px 8px 0px;
-    @include media(desktop) {
-      margin: 5px 0;
-    }
+
     &:hover {
       background-color: #fff;
     }
