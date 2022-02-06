@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/kieratex-website-v2/static/css/main.b1c2d608.chunk.css",
-    "main.js": "/kieratex-website-v2/static/js/main.df8d1788.chunk.js",
-    "main.js.map": "/kieratex-website-v2/static/js/main.df8d1788.chunk.js.map",
+    "main.css": "/kieratex-website-v2/static/css/main.629c190f.chunk.css",
+    "main.js": "/kieratex-website-v2/static/js/main.f4d2374e.chunk.js",
+    "main.js.map": "/kieratex-website-v2/static/js/main.f4d2374e.chunk.js.map",
     "runtime-main.js": "/kieratex-website-v2/static/js/runtime-main.3bbb41af.js",
     "runtime-main.js.map": "/kieratex-website-v2/static/js/runtime-main.3bbb41af.js.map",
     "static/js/2.d01af7e4.chunk.js": "/kieratex-website-v2/static/js/2.d01af7e4.chunk.js",
     "static/js/2.d01af7e4.chunk.js.map": "/kieratex-website-v2/static/js/2.d01af7e4.chunk.js.map",
     "index.html": "/kieratex-website-v2/index.html",
-    "static/css/main.b1c2d608.chunk.css.map": "/kieratex-website-v2/static/css/main.b1c2d608.chunk.css.map",
+    "static/css/main.629c190f.chunk.css.map": "/kieratex-website-v2/static/css/main.629c190f.chunk.css.map",
     "static/js/2.d01af7e4.chunk.js.LICENSE.txt": "/kieratex-website-v2/static/js/2.d01af7e4.chunk.js.LICENSE.txt",
     "static/media/background-pattern.4d1edaa7.jpg": "/kieratex-website-v2/static/media/background-pattern.4d1edaa7.jpg",
     "static/media/binary-code.8d44caa5.png": "/kieratex-website-v2/static/media/binary-code.8d44caa5.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.3bbb41af.js",
     "static/js/2.d01af7e4.chunk.js",
-    "static/css/main.b1c2d608.chunk.css",
-    "static/js/main.df8d1788.chunk.js"
+    "static/css/main.629c190f.chunk.css",
+    "static/js/main.f4d2374e.chunk.js"
   ]
 }
