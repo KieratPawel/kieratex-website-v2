@@ -4,3 +4,10 @@
   margin: 0 auto;
   overflow: hidden;
 }
+
+.view_wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

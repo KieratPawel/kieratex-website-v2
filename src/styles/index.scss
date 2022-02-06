@@ -35,9 +35,15 @@ $sizes: (
 html {
   font-size: 10px;
   font-family: "Roboto", sans-serif;
+  height: 100vh;
+  height: -webkit-fill-available;
 }
 body {
-  background: linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,1) 50%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 1) 50%
+  );
 }
 
 @import "App";
@@ -46,3 +52,4 @@ body {
 @import "Section";
 @import "Card";
 @import "Contact";
+@import "Navbar";
