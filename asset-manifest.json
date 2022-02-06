@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kieratex-website-v2/static/css/main.07303d61.chunk.css",
-    "main.js": "/kieratex-website-v2/static/js/main.33bff0c9.chunk.js",
-    "main.js.map": "/kieratex-website-v2/static/js/main.33bff0c9.chunk.js.map",
+    "main.css": "/kieratex-website-v2/static/css/main.750c8cb4.chunk.css",
+    "main.js": "/kieratex-website-v2/static/js/main.cd9ddd9d.chunk.js",
+    "main.js.map": "/kieratex-website-v2/static/js/main.cd9ddd9d.chunk.js.map",
     "runtime-main.js": "/kieratex-website-v2/static/js/runtime-main.3bbb41af.js",
     "runtime-main.js.map": "/kieratex-website-v2/static/js/runtime-main.3bbb41af.js.map",
-    "static/js/2.8f51204f.chunk.js": "/kieratex-website-v2/static/js/2.8f51204f.chunk.js",
-    "static/js/2.8f51204f.chunk.js.map": "/kieratex-website-v2/static/js/2.8f51204f.chunk.js.map",
+    "static/js/2.cc6bdeac.chunk.js": "/kieratex-website-v2/static/js/2.cc6bdeac.chunk.js",
+    "static/js/2.cc6bdeac.chunk.js.map": "/kieratex-website-v2/static/js/2.cc6bdeac.chunk.js.map",
     "index.html": "/kieratex-website-v2/index.html",
-    "static/css/main.07303d61.chunk.css.map": "/kieratex-website-v2/static/css/main.07303d61.chunk.css.map",
-    "static/js/2.8f51204f.chunk.js.LICENSE.txt": "/kieratex-website-v2/static/js/2.8f51204f.chunk.js.LICENSE.txt",
+    "static/css/main.750c8cb4.chunk.css.map": "/kieratex-website-v2/static/css/main.750c8cb4.chunk.css.map",
+    "static/js/2.cc6bdeac.chunk.js.LICENSE.txt": "/kieratex-website-v2/static/js/2.cc6bdeac.chunk.js.LICENSE.txt",
     "static/media/background-pattern.4d1edaa7.jpg": "/kieratex-website-v2/static/media/background-pattern.4d1edaa7.jpg",
     "static/media/binary-code.8d44caa5.png": "/kieratex-website-v2/static/media/binary-code.8d44caa5.png",
     "static/media/dom-seniora.f2f092b4.jpg": "/kieratex-website-v2/static/media/dom-seniora.f2f092b4.jpg",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3bbb41af.js",
-    "static/js/2.8f51204f.chunk.js",
-    "static/css/main.07303d61.chunk.css",
-    "static/js/main.33bff0c9.chunk.js"
+    "static/js/2.cc6bdeac.chunk.js",
+    "static/css/main.750c8cb4.chunk.css",
+    "static/js/main.cd9ddd9d.chunk.js"
   ]
 }
