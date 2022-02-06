@@ -100,6 +100,11 @@ const config = {
         alt: "facebook",
       },
     },
+    successMessage: "Wiadomość wysłana",
+    errorMessage: "Wprowadź poprawne dane",
+    emailPlaceholder: "Twój email",
+    textareaPlaceholder: "Twoja wiadomość",
+    buttonForm: "Wyślij wiadomość",
   },
 };
 

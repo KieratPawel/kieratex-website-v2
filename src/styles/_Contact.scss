@@ -36,8 +36,12 @@
     font-size: 1.6rem;
     cursor: pointer;
     width: auto;
+    transition: 0.5s;
     @include media(desktop) {
       font-size: 1.8rem;
+    }
+    &:hover{
+      color: darken($font-color2, 40%);
     }
   }
   &__image {
@@ -96,9 +100,51 @@
     box-shadow: 0 0 5px 0 $background-color1;
     border: none;
     transition: 0.5s;
+    cursor: pointer;
     &:hover {
       background-color: $background-color2;
       color: $font-color2;
+    }
+  }
+  @keyframes popupAnimation {
+    0%{
+      opacity: 0;
+      pointer-events: none;
+    }
+    5%{
+      opacity: 1;
+      pointer-events: unset;
+    }
+    95%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+      pointer-events: none;
+    }
+    
+  }
+  .popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%-50%);
+    font-size: 1.5rem;
+    padding: 30px;
+    font-weight: 700;
+    animation: popupAnimation 5s linear 0s 1 both;
+    border-radius: 10px;
+    @include media(desktop){
+      padding: 50px;
+    }
+
+    &--error{
+      color: #fff;
+      background-color: rgba(255, 25, 25, .8);
+    }
+    &--success{
+      color: #fff;
+      background-color: rgba(27, 236, 97, .8);
     }
   }
 }

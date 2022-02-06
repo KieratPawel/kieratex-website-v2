@@ -60,6 +60,10 @@
   &__link {
     color: inherit;
     text-decoration: none;
+    transition: .5s;
+    &:hover{
+      color: darken($font-color2, 25%);
+    }
   }
   &__text {
     text-align: justify;
