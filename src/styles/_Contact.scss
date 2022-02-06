@@ -13,14 +13,16 @@
   }
   &__socials {
     width: 100%;
-    min-height: 40vh;
+    //min-height: 40vh;
     padding: 0 10px;
     text-align: left;
     @include media(horizontal) {
       width: auto;
+      min-height: 40vh;
     }
     @include media(desktop) {
       margin-left: 50px;
+      min-height: 40vh;
     }
   }
   &__line {
@@ -40,7 +42,7 @@
     @include media(desktop) {
       font-size: 1.8rem;
     }
-    &:hover{
+    &:hover {
       color: darken($font-color2, 40%);
     }
   }
@@ -107,24 +109,23 @@
     }
   }
   @keyframes popupAnimation {
-    0%{
+    0% {
       opacity: 0;
       pointer-events: none;
     }
-    5%{
+    5% {
       opacity: 1;
       pointer-events: unset;
     }
-    95%{
+    95% {
       opacity: 1;
     }
-    100%{
+    100% {
       opacity: 0;
       pointer-events: none;
     }
-    
   }
-  .popup{
+  .popup {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -134,17 +135,17 @@
     font-weight: 700;
     animation: popupAnimation 5s linear 0s 1 both;
     border-radius: 10px;
-    @include media(desktop){
+    @include media(desktop) {
       padding: 50px;
     }
 
-    &--error{
+    &--error {
       color: #fff;
-      background-color: rgba(255, 25, 25, .8);
+      background-color: rgba(255, 25, 25, 0.8);
     }
-    &--success{
+    &--success {
       color: #fff;
-      background-color: rgba(27, 236, 97, .8);
+      background-color: rgba(27, 236, 97, 0.8);
     }
   }
 }

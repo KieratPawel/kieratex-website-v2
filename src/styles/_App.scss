@@ -6,8 +6,10 @@
 }
 
 .view_wrapper {
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  @include media(desktop) {
+    height: 100%;
+  }
 }

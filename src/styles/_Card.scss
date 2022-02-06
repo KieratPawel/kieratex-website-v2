@@ -2,10 +2,10 @@
   width: 90%;
   padding: 20px 0;
   margin: 0 auto;
-  min-height: 65vh;
   @include media(horizontal) {
     width: 70%;
     margin: 0 auto;
+    min-height: 65vh;
   }
   @include media(desktop) {
     width: 100%;
@@ -14,6 +14,15 @@
     &--link {
       padding: 20px 2px;
       margin: 0 5px;
+    }
+  }
+  &:last-child {
+    margin-bottom: 20px;
+    @include media(horizontal) {
+      margin-bottom: 0;
+    }
+    @include media(desktop) {
+      margin-bottom: 0;
     }
   }
   &__container {
@@ -60,8 +69,8 @@
   &__link {
     color: inherit;
     text-decoration: none;
-    transition: .5s;
-    &:hover{
+    transition: 0.5s;
+    &:hover {
       color: darken($font-color2, 25%);
     }
   }
