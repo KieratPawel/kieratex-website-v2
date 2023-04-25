@@ -37,9 +37,14 @@ html {
   font-family: "Roboto", sans-serif;
   height: 100vh;
   height: -webkit-fill-available;
+  background-color: $background-theme;
 }
 body {
-  background-color: $background-theme;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 1) 50%
+  );
 }
 
 @import "App";
