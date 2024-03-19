@@ -1,30 +1,23 @@
 {
   "files": {
-    "main.css": "/kieratex-website-v2/static/css/main.7d27436c.chunk.css",
-    "main.js": "/kieratex-website-v2/static/js/main.f4d2374e.chunk.js",
-    "main.js.map": "/kieratex-website-v2/static/js/main.f4d2374e.chunk.js.map",
-    "runtime-main.js": "/kieratex-website-v2/static/js/runtime-main.3bbb41af.js",
-    "runtime-main.js.map": "/kieratex-website-v2/static/js/runtime-main.3bbb41af.js.map",
-    "static/js/2.d01af7e4.chunk.js": "/kieratex-website-v2/static/js/2.d01af7e4.chunk.js",
-    "static/js/2.d01af7e4.chunk.js.map": "/kieratex-website-v2/static/js/2.d01af7e4.chunk.js.map",
+    "main.css": "/kieratex-website-v2/static/css/main.c0b8c25d.css",
+    "main.js": "/kieratex-website-v2/static/js/main.6975b5ca.js",
+    "static/media/face.png": "/kieratex-website-v2/static/media/face.c5e2b965d00320eaee93.png",
+    "static/media/background-pattern.jpg": "/kieratex-website-v2/static/media/background-pattern.4d1edaa769a91087d967.jpg",
+    "static/media/oreo.png": "/kieratex-website-v2/static/media/oreo.4f5a21996a6a9c4e53e2.png",
+    "static/media/dom-seniora.jpg": "/kieratex-website-v2/static/media/dom-seniora.f2f092b4547610a22cbf.jpg",
+    "static/media/binary-code.png": "/kieratex-website-v2/static/media/binary-code.8d44caa590eba87aae69.png",
+    "static/media/services1.png": "/kieratex-website-v2/static/media/services1.9e63cf93bc4b3ff586f4.png",
+    "static/media/lotto-machine.jpg": "/kieratex-website-v2/static/media/lotto-machine.fcd1a963f0dfa3c1a5f1.jpg",
+    "static/media/github.jpg": "/kieratex-website-v2/static/media/github.6e0ab0253a7c9ed65c16.jpg",
+    "static/media/kieratex.jpg": "/kieratex-website-v2/static/media/kieratex.5092ff2bec80fa69233d.jpg",
+    "static/media/services3.png": "/kieratex-website-v2/static/media/services3.3d0dc716c4119a60ed54.png",
     "index.html": "/kieratex-website-v2/index.html",
-    "static/css/main.7d27436c.chunk.css.map": "/kieratex-website-v2/static/css/main.7d27436c.chunk.css.map",
-    "static/js/2.d01af7e4.chunk.js.LICENSE.txt": "/kieratex-website-v2/static/js/2.d01af7e4.chunk.js.LICENSE.txt",
-    "static/media/background-pattern.4d1edaa7.jpg": "/kieratex-website-v2/static/media/background-pattern.4d1edaa7.jpg",
-    "static/media/binary-code.8d44caa5.png": "/kieratex-website-v2/static/media/binary-code.8d44caa5.png",
-    "static/media/dom-seniora.f2f092b4.jpg": "/kieratex-website-v2/static/media/dom-seniora.f2f092b4.jpg",
-    "static/media/face.c5e2b965.png": "/kieratex-website-v2/static/media/face.c5e2b965.png",
-    "static/media/github.6e0ab025.jpg": "/kieratex-website-v2/static/media/github.6e0ab025.jpg",
-    "static/media/kieratex.5092ff2b.jpg": "/kieratex-website-v2/static/media/kieratex.5092ff2b.jpg",
-    "static/media/lotto-machine.fcd1a963.jpg": "/kieratex-website-v2/static/media/lotto-machine.fcd1a963.jpg",
-    "static/media/oreo.4f5a2199.png": "/kieratex-website-v2/static/media/oreo.4f5a2199.png",
-    "static/media/services1.9e63cf93.png": "/kieratex-website-v2/static/media/services1.9e63cf93.png",
-    "static/media/services3.3d0dc716.png": "/kieratex-website-v2/static/media/services3.3d0dc716.png"
+    "main.c0b8c25d.css.map": "/kieratex-website-v2/static/css/main.c0b8c25d.css.map",
+    "main.6975b5ca.js.map": "/kieratex-website-v2/static/js/main.6975b5ca.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.3bbb41af.js",
-    "static/js/2.d01af7e4.chunk.js",
-    "static/css/main.7d27436c.chunk.css",
-    "static/js/main.f4d2374e.chunk.js"
+    "static/css/main.c0b8c25d.css",
+    "static/js/main.6975b5ca.js"
   ]
 }
