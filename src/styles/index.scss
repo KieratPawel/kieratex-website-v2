@@ -7,23 +7,15 @@ $font-color1: #333;
 $font-color2: #ddd;
 $font-color3: #666;
 
-$sizes: (
-  horizontal: (
-    orientation: landscape,
-  ),
-  desktop: (
-    min-width: 1024px,
-  ),
-);
+@mixin horizontal {
+  @media (orientation: landscape) {
+    @content;
+  }
+}
 
-@mixin media($size) {
-  $size: map-get($sizes, $size);
-  @if ($size) {
-    @media #{$size} {
-      @content;
-    }
-  } @else {
-    @error 'Missing size';
+@mixin desktop {
+  @media (min-width: 1024px) {
+    @content;
   }
 }
 
@@ -32,6 +24,7 @@ $sizes: (
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 10px;
   font-family: "Roboto", sans-serif;
@@ -39,12 +32,11 @@ html {
   height: -webkit-fill-available;
   background-color: $background-theme;
 }
+
 body {
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0.8) 0%,
-    rgba(0, 0, 0, 1) 50%
-  );
+  background: linear-gradient(90deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 1) 50%);
 }
 
 @import "App";

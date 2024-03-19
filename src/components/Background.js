@@ -9,9 +9,18 @@ import Oreo from "../static/images/oreo.png";
 
 const Background = () => {
   const [offset, setOffset] = useState(0);
-  const handleScroll = () => setOffset(window.pageYOffset);
 
   useEffect(() => {
+    let throttleTimeout;
+    const handleScroll = () => {
+      if (!throttleTimeout) {
+        throttleTimeout = setTimeout(() => {
+          setOffset(window.pageYOffset);
+          throttleTimeout = null;
+        }, 20);
+      }
+    };
+
     window.addEventListener("scroll", handleScroll);
 
     return () => window.removeEventListener("scroll", handleScroll);

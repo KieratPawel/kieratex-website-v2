@@ -13,7 +13,7 @@
     background-color: $background-color1;
     box-shadow: 0 0 10px 0 $background-color1;
   }
-  @include media(desktop) {
+  @include desktop {
     width: 80%;
     box-shadow: 0 0 5px 0 $background-color2;
     padding: 0 10px;
@@ -31,7 +31,7 @@
     width: 100%;
     text-transform: uppercase;
     font-size: 2.3rem;
-    @include media(desktop) {
+    @include desktop {
       padding: 40px 20px 20px;
       font-size: 3rem;
     }
@@ -42,7 +42,7 @@
     flex-direction: column;
     align-items: center;
 
-    @include media(desktop) {
+    @include desktop {
       display: flex;
       flex-direction: row;
       align-items: flex-start;

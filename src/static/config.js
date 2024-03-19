@@ -18,7 +18,7 @@ const config = {
     slogan1: "Tanio",
     slogan2: "Szybko",
     slogan3: "Skutecznie",
-    image: { src: Face, alt: "Twarz twórcy Kieratex" },
+    image: { src: Face, alt: "Twarz Kieratex" },
   },
   about: {
     sectionTitle: "Tworzymy wyjątkowe strony internetowe",
