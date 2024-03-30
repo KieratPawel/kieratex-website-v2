@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/kieratex-website-v2/static/css/main.c0b8c25d.css",
-    "main.js": "/kieratex-website-v2/static/js/main.6975b5ca.js",
-    "static/media/face.png": "/kieratex-website-v2/static/media/face.c5e2b965d00320eaee93.png",
-    "static/media/background-pattern.jpg": "/kieratex-website-v2/static/media/background-pattern.4d1edaa769a91087d967.jpg",
-    "static/media/oreo.png": "/kieratex-website-v2/static/media/oreo.4f5a21996a6a9c4e53e2.png",
-    "static/media/dom-seniora.jpg": "/kieratex-website-v2/static/media/dom-seniora.f2f092b4547610a22cbf.jpg",
-    "static/media/binary-code.png": "/kieratex-website-v2/static/media/binary-code.8d44caa590eba87aae69.png",
-    "static/media/services1.png": "/kieratex-website-v2/static/media/services1.9e63cf93bc4b3ff586f4.png",
-    "static/media/lotto-machine.jpg": "/kieratex-website-v2/static/media/lotto-machine.fcd1a963f0dfa3c1a5f1.jpg",
-    "static/media/github.jpg": "/kieratex-website-v2/static/media/github.6e0ab0253a7c9ed65c16.jpg",
-    "static/media/kieratex.jpg": "/kieratex-website-v2/static/media/kieratex.5092ff2bec80fa69233d.jpg",
-    "static/media/services3.png": "/kieratex-website-v2/static/media/services3.3d0dc716c4119a60ed54.png",
+    "main.css": "/kieratex-website-v2/static/css/main.1790f6a1.css",
+    "main.js": "/kieratex-website-v2/static/js/main.3d4000be.js",
+    "static/media/face.png": "/kieratex-website-v2/static/media/face.b3b0c0d4e9d52ad5544d.png",
+    "static/media/background-pattern.jpg": "/kieratex-website-v2/static/media/background-pattern.fc1d11e9cb4497fd03fa.jpg",
+    "static/media/oreo.png": "/kieratex-website-v2/static/media/oreo.6071486ae6bb3f05d14c.png",
+    "static/media/patshop.png": "/kieratex-website-v2/static/media/patshop.23c6d47ac05420b72b1e.png",
+    "static/media/royal_stone.png": "/kieratex-website-v2/static/media/royal_stone.2fbf109c70fadec66d25.png",
+    "static/media/ecoflow.png": "/kieratex-website-v2/static/media/ecoflow.9e4bc648e542d8c909bd.png",
+    "static/media/dom-seniora.jpg": "/kieratex-website-v2/static/media/dom-seniora.0c226671677b247b91fe.jpg",
+    "static/media/shibushi.png": "/kieratex-website-v2/static/media/shibushi.f9cc770a3deffe9034f5.png",
+    "static/media/github.jpg": "/kieratex-website-v2/static/media/github.bcd98351d227af12a803.jpg",
+    "static/media/oromed.png": "/kieratex-website-v2/static/media/oromed.9c169df49d718a927a6a.png",
+    "static/media/kieratex.jpg": "/kieratex-website-v2/static/media/kieratex.d4172365edd715ffa71f.jpg",
     "index.html": "/kieratex-website-v2/index.html",
-    "main.c0b8c25d.css.map": "/kieratex-website-v2/static/css/main.c0b8c25d.css.map",
-    "main.6975b5ca.js.map": "/kieratex-website-v2/static/js/main.6975b5ca.js.map"
+    "main.1790f6a1.css.map": "/kieratex-website-v2/static/css/main.1790f6a1.css.map",
+    "main.3d4000be.js.map": "/kieratex-website-v2/static/js/main.3d4000be.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0b8c25d.css",
-    "static/js/main.6975b5ca.js"
+    "static/css/main.1790f6a1.css",
+    "static/js/main.3d4000be.js"
   ]
 }
