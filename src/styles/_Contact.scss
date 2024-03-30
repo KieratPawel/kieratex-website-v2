@@ -53,12 +53,17 @@
 
     &:hover {
       color: darken($font-color2, 40%);
+
+      .contact__image {
+        opacity: .8;
+      }
     }
   }
 
   &__image {
     width: 40px;
     margin-right: 20px;
+    transition: .5s;
 
     @include desktop {
       width: 60px;

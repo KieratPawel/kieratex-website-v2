@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import axios from "axios"
+import axios from "axios";
 import config from "../static/config";
-const { successMessage, errorMessage, emailPlaceholder, textareaPlaceholder, buttonForm} = config.contact;
+
+const { successMessage, errorMessage, emailPlaceholder, textareaPlaceholder, buttonForm } = config.contact;
 
 function ContactForm() {
   const [serverState, setServerState] = useState({
@@ -9,6 +10,7 @@ function ContactForm() {
     status: null,
     popup: false,
   });
+
   const handleServerResponse = (ok, msg, form) => {
     setServerState({
       submitting: false,
@@ -18,6 +20,7 @@ function ContactForm() {
       form.reset();
     }
   };
+
   const handleOnSubmit = e => {
     e.preventDefault();
     const form = e.target;
@@ -34,37 +37,42 @@ function ContactForm() {
         handleServerResponse(false, r.response.data.error, form);
       });
   };
+
   return (
-      <form 
-        onSubmit={handleOnSubmit}
-        className="contact__form" >
-        <input
-          className="contact__input" 
-          id="email" 
-          type="email" 
-          name="email" 
-          placeholder={emailPlaceholder}
-          required />
-        <textarea 
-          className="contact__textarea"
-          id="message" 
-          name="message"
-          placeholder={textareaPlaceholder}
-          rows="10"
-          required >
-        </textarea>
-        <button 
-          type="submit"
-          className="contact__button"
-          disabled={serverState.submitting}>
-          {buttonForm}
-        </button>
-        {serverState.status && (
-          <p className={serverState.status.ok ? "popup popup--success" : "popup popup--error"}>
-            {serverState.status.ok?successMessage:errorMessage}
-          </p>
-        )}
-      </form>
+    <form
+      onSubmit={handleOnSubmit}
+      className="contact__form"
+    >
+      <input
+        className="contact__input"
+        id="email"
+        type="email"
+        name="email"
+        placeholder={emailPlaceholder}
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+        required
+      />
+      <textarea
+        className="contact__textarea"
+        id="message"
+        name="message"
+        placeholder={textareaPlaceholder}
+        rows="10"
+        required
+      ></textarea>
+      <button
+        type="submit"
+        className="contact__button"
+        disabled={serverState.submitting}
+      >
+        {buttonForm}
+      </button>
+      {serverState.status && (
+        <p className={serverState.status.ok ? "popup popup--success" : "popup popup--error"}>
+          {serverState.status.ok ? successMessage : errorMessage}
+        </p>
+      )}
+    </form>
   );
 };
 

@@ -15,7 +15,7 @@ const Background = () => {
     const handleScroll = () => {
       if (!throttleTimeout) {
         throttleTimeout = setTimeout(() => {
-          setOffset(window.pageYOffset);
+          setOffset(window.scrollY);
           throttleTimeout = null;
         }, 20);
       }
@@ -31,7 +31,7 @@ const Background = () => {
       <div
         className="Page__background Page__background--pattern"
         style={{
-          transform: `translateY(-${offset * 0.5}px)`,
+          transform: `translateY(-${offset * .5}px)`,
           backgroundImage: `url(${BackgroundPattern})`,
         }}
       />
@@ -40,8 +40,7 @@ const Background = () => {
         src={BinaryCode}
         alt="kod binarny"
         style={{
-          transform: `translateY(${offset * -0.1}px)`,
-          filter: `hue-rotate(${offset * 0.1}deg)`,
+          transform: `translateY(${offset * -.1}px)`,
         }}
       />
       <Image
@@ -49,8 +48,7 @@ const Background = () => {
         src={BinaryCode}
         alt="kod binarny"
         style={{
-          transform: `translateY(${offset * -0.7}px)`,
-          filter: `invert(${offset * 0.1}%)`,
+          transform: `translateY(${offset * -.7}px)`,
         }}
       />
       <Image
@@ -58,10 +56,9 @@ const Background = () => {
         src={Globe}
         alt="glob"
         style={{
-          transform: `translateY(${offset * -0.5}px) scale(${
-            offset * 0.001 + 1 > 2 ? 2 : offset * 0.001 + 1
+          transform: `translateY(${offset * -.5}px) scale(${
+            offset * .001 + 1 > 2 ? 2 : offset * .001 + 1
           })`,
-          filter: `invert(${offset * 0.05}%)`,
         }}
       />
       <Image
