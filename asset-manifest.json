@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kieratex-website-v2/static/css/main.1790f6a1.css",
-    "main.js": "/kieratex-website-v2/static/js/main.3d4000be.js",
+    "main.css": "/kieratex-website-v2/static/css/main.b95ddb57.css",
+    "main.js": "/kieratex-website-v2/static/js/main.47fc917f.js",
     "static/media/face.png": "/kieratex-website-v2/static/media/face.b3b0c0d4e9d52ad5544d.png",
     "static/media/background-pattern.jpg": "/kieratex-website-v2/static/media/background-pattern.fc1d11e9cb4497fd03fa.jpg",
     "static/media/oreo.png": "/kieratex-website-v2/static/media/oreo.6071486ae6bb3f05d14c.png",
@@ -14,11 +14,11 @@
     "static/media/oromed.png": "/kieratex-website-v2/static/media/oromed.9c169df49d718a927a6a.png",
     "static/media/kieratex.jpg": "/kieratex-website-v2/static/media/kieratex.d4172365edd715ffa71f.jpg",
     "index.html": "/kieratex-website-v2/index.html",
-    "main.1790f6a1.css.map": "/kieratex-website-v2/static/css/main.1790f6a1.css.map",
-    "main.3d4000be.js.map": "/kieratex-website-v2/static/js/main.3d4000be.js.map"
+    "main.b95ddb57.css.map": "/kieratex-website-v2/static/css/main.b95ddb57.css.map",
+    "main.47fc917f.js.map": "/kieratex-website-v2/static/js/main.47fc917f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1790f6a1.css",
-    "static/js/main.3d4000be.js"
+    "static/css/main.b95ddb57.css",
+    "static/js/main.47fc917f.js"
   ]
 }
